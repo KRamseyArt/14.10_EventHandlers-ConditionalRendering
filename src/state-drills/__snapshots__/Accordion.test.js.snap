@@ -5,7 +5,7 @@ exports[`Accordion Component only opens one section at a time 1`] = `
   className="Accordion"
 >
   <li
-    className="Accordion__item"
+    className="Section"
     key="0"
   >
     <button
@@ -16,7 +16,7 @@ exports[`Accordion Component only opens one section at a time 1`] = `
     </button>
   </li>
   <li
-    className="Accordion__item"
+    className="Section"
     key="1"
   >
     <button
@@ -27,7 +27,7 @@ exports[`Accordion Component only opens one section at a time 1`] = `
     </button>
   </li>
   <li
-    className="Accordion__item"
+    className="Section"
     key="2"
   >
     <button
@@ -48,7 +48,7 @@ exports[`Accordion Component opens any clicked section 1`] = `
   className="Accordion"
 >
   <li
-    className="Accordion__item"
+    className="Section"
     key="0"
   >
     <button
@@ -59,7 +59,7 @@ exports[`Accordion Component opens any clicked section 1`] = `
     </button>
   </li>
   <li
-    className="Accordion__item"
+    className="Section"
     key="1"
   >
     <button
@@ -73,7 +73,7 @@ exports[`Accordion Component opens any clicked section 1`] = `
     </p>
   </li>
   <li
-    className="Accordion__item"
+    className="Section"
     key="2"
   >
     <button
@@ -95,5 +95,39 @@ exports[`Accordion Component renders empty given no Accordion without errors 1`]
 exports[`Accordion Component renders no sections by default 1`] = `
 <ul
   className="Accordion"
-/>
+>
+  <li
+    className="Section"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Section"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Section"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
 `;
